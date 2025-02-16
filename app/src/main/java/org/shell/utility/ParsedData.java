@@ -1,11 +1,11 @@
 package org.shell.utility;
 
-public class Tuple {
+public class ParsedData {
     public String command;
 
     public String[] params;
 
-    public Tuple(String[] params, String command) {
+    public ParsedData(String[] params, String command) {
         this.params = params;
         this.command = command;
     }

@@ -1,6 +1,6 @@
 package org.shell;
 
-import org.shell.utility.Tuple;
+import org.shell.utility.ParsedData;
 
 public class Shell {
     
@@ -8,7 +8,7 @@ public class Shell {
         while (true) {
             String input = InputReader.readInput();
 
-            Tuple parsedInput = InputParser.parser(input);
+            ParsedData parsedInput = InputParser.parser(input);
 
             ExecuteCommand.execute(parsedInput.command, parsedInput.params);
         }
