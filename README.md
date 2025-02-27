@@ -23,3 +23,6 @@ JShell is a simple command-line shell implementation in Java. It supports variou
 
 - **Error Handling**
   - Handles invalid commands and parameters with appropriate error messages.
+
+
+All hail to free-software! 🌍
